@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2743C73A1DDFCCDE002305BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C7391DDFCCDE002305BD /* main.m */; };
+		2743C73D1DDFCCDE002305BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C73C1DDFCCDE002305BD /* AppDelegate.m */; };
+		2743C7401DDFCCDE002305BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C73F1DDFCCDE002305BD /* ViewController.m */; };
+		2743C7431DDFCCDE002305BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2743C7411DDFCCDE002305BD /* Main.storyboard */; };
+		2743C7451DDFCCDE002305BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2743C7441DDFCCDE002305BD /* Assets.xcassets */; };
+		2743C7481DDFCCDE002305BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2743C7461DDFCCDE002305BD /* LaunchScreen.storyboard */; };
+		2743C7531DDFCCDE002305BD /* Congress_CallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C7521DDFCCDE002305BD /* Congress_CallerTests.m */; };
+		2743C75E1DDFCCDE002305BD /* Congress_CallerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2743C75D1DDFCCDE002305BD /* Congress_CallerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2743C74F1DDFCCDE002305BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2743C72D1DDFCCDE002305BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2743C7341DDFCCDE002305BD;
+			remoteInfo = "Congress Caller";
+		};
+		2743C75A1DDFCCDE002305BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2743C72D1DDFCCDE002305BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2743C7341DDFCCDE002305BD;
+			remoteInfo = "Congress Caller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2743C7351DDFCCDE002305BD /* Congress Caller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Congress Caller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2743C7391DDFCCDE002305BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2743C73B1DDFCCDE002305BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2743C73C1DDFCCDE002305BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2743C73E1DDFCCDE002305BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2743C73F1DDFCCDE002305BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2743C7421DDFCCDE002305BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2743C7441DDFCCDE002305BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2743C7471DDFCCDE002305BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2743C7491DDFCCDE002305BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2743C74E1DDFCCDE002305BD /* Congress CallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Congress CallerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2743C7521DDFCCDE002305BD /* Congress_CallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Congress_CallerTests.m; sourceTree = "<group>"; };
+		2743C7541DDFCCDE002305BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2743C7591DDFCCDE002305BD /* Congress CallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Congress CallerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2743C75D1DDFCCDE002305BD /* Congress_CallerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Congress_CallerUITests.m; sourceTree = "<group>"; };
+		2743C75F1DDFCCDE002305BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2743C7321DDFCCDE002305BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2743C74B1DDFCCDE002305BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2743C7561DDFCCDE002305BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2743C72C1DDFCCDE002305BD = {
+			isa = PBXGroup;
+			children = (
+				2743C7371DDFCCDE002305BD /* Congress Caller */,
+				2743C7511DDFCCDE002305BD /* Congress CallerTests */,
+				2743C75C1DDFCCDE002305BD /* Congress CallerUITests */,
+				2743C7361DDFCCDE002305BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2743C7361DDFCCDE002305BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2743C7351DDFCCDE002305BD /* Congress Caller.app */,
+				2743C74E1DDFCCDE002305BD /* Congress CallerTests.xctest */,
+				2743C7591DDFCCDE002305BD /* Congress CallerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2743C7371DDFCCDE002305BD /* Congress Caller */ = {
+			isa = PBXGroup;
+			children = (
+				2743C73B1DDFCCDE002305BD /* AppDelegate.h */,
+				2743C73C1DDFCCDE002305BD /* AppDelegate.m */,
+				2743C73E1DDFCCDE002305BD /* ViewController.h */,
+				2743C73F1DDFCCDE002305BD /* ViewController.m */,
+				2743C7411DDFCCDE002305BD /* Main.storyboard */,
+				2743C7441DDFCCDE002305BD /* Assets.xcassets */,
+				2743C7461DDFCCDE002305BD /* LaunchScreen.storyboard */,
+				2743C7491DDFCCDE002305BD /* Info.plist */,
+				2743C7381DDFCCDE002305BD /* Supporting Files */,
+			);
+			path = "Congress Caller";
+			sourceTree = "<group>";
+		};
+		2743C7381DDFCCDE002305BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2743C7391DDFCCDE002305BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2743C7511DDFCCDE002305BD /* Congress CallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2743C7521DDFCCDE002305BD /* Congress_CallerTests.m */,
+				2743C7541DDFCCDE002305BD /* Info.plist */,
+			);
+			path = "Congress CallerTests";
+			sourceTree = "<group>";
+		};
+		2743C75C1DDFCCDE002305BD /* Congress CallerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2743C75D1DDFCCDE002305BD /* Congress_CallerUITests.m */,
+				2743C75F1DDFCCDE002305BD /* Info.plist */,
+			);
+			path = "Congress CallerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2743C7341DDFCCDE002305BD /* Congress Caller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2743C7621DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress Caller" */;
+			buildPhases = (
+				2743C7311DDFCCDE002305BD /* Sources */,
+				2743C7321DDFCCDE002305BD /* Frameworks */,
+				2743C7331DDFCCDE002305BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Congress Caller";
+			productName = "Congress Caller";
+			productReference = 2743C7351DDFCCDE002305BD /* Congress Caller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2743C74D1DDFCCDE002305BD /* Congress CallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2743C7651DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress CallerTests" */;
+			buildPhases = (
+				2743C74A1DDFCCDE002305BD /* Sources */,
+				2743C74B1DDFCCDE002305BD /* Frameworks */,
+				2743C74C1DDFCCDE002305BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2743C7501DDFCCDE002305BD /* PBXTargetDependency */,
+			);
+			name = "Congress CallerTests";
+			productName = "Congress CallerTests";
+			productReference = 2743C74E1DDFCCDE002305BD /* Congress CallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2743C7581DDFCCDE002305BD /* Congress CallerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2743C7681DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress CallerUITests" */;
+			buildPhases = (
+				2743C7551DDFCCDE002305BD /* Sources */,
+				2743C7561DDFCCDE002305BD /* Frameworks */,
+				2743C7571DDFCCDE002305BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2743C75B1DDFCCDE002305BD /* PBXTargetDependency */,
+			);
+			name = "Congress CallerUITests";
+			productName = "Congress CallerUITests";
+			productReference = 2743C7591DDFCCDE002305BD /* Congress CallerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2743C72D1DDFCCDE002305BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					2743C7341DDFCCDE002305BD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3ZTR7GBLGC;
+						ProvisioningStyle = Automatic;
+					};
+					2743C74D1DDFCCDE002305BD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3ZTR7GBLGC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2743C7341DDFCCDE002305BD;
+					};
+					2743C7581DDFCCDE002305BD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3ZTR7GBLGC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2743C7341DDFCCDE002305BD;
+					};
+				};
+			};
+			buildConfigurationList = 2743C7301DDFCCDE002305BD /* Build configuration list for PBXProject "Congress Caller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2743C72C1DDFCCDE002305BD;
+			productRefGroup = 2743C7361DDFCCDE002305BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2743C7341DDFCCDE002305BD /* Congress Caller */,
+				2743C74D1DDFCCDE002305BD /* Congress CallerTests */,
+				2743C7581DDFCCDE002305BD /* Congress CallerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2743C7331DDFCCDE002305BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2743C7481DDFCCDE002305BD /* LaunchScreen.storyboard in Resources */,
+				2743C7451DDFCCDE002305BD /* Assets.xcassets in Resources */,
+				2743C7431DDFCCDE002305BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2743C74C1DDFCCDE002305BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2743C7571DDFCCDE002305BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2743C7311DDFCCDE002305BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2743C7401DDFCCDE002305BD /* ViewController.m in Sources */,
+				2743C73D1DDFCCDE002305BD /* AppDelegate.m in Sources */,
+				2743C73A1DDFCCDE002305BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2743C74A1DDFCCDE002305BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2743C7531DDFCCDE002305BD /* Congress_CallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2743C7551DDFCCDE002305BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2743C75E1DDFCCDE002305BD /* Congress_CallerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2743C7501DDFCCDE002305BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2743C7341DDFCCDE002305BD /* Congress Caller */;
+			targetProxy = 2743C74F1DDFCCDE002305BD /* PBXContainerItemProxy */;
+		};
+		2743C75B1DDFCCDE002305BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2743C7341DDFCCDE002305BD /* Congress Caller */;
+			targetProxy = 2743C75A1DDFCCDE002305BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2743C7411DDFCCDE002305BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2743C7421DDFCCDE002305BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2743C7461DDFCCDE002305BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2743C7471DDFCCDE002305BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2743C7601DDFCCDE002305BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2743C7611DDFCCDE002305BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2743C7631DDFCCDE002305BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				INFOPLIST_FILE = "Congress Caller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-Caller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2743C7641DDFCCDE002305BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				INFOPLIST_FILE = "Congress Caller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-Caller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2743C7661DDFCCDE002305BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				INFOPLIST_FILE = "Congress CallerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-CallerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congress Caller.app/Congress Caller";
+			};
+			name = Debug;
+		};
+		2743C7671DDFCCDE002305BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				INFOPLIST_FILE = "Congress CallerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-CallerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congress Caller.app/Congress Caller";
+			};
+			name = Release;
+		};
+		2743C7691DDFCCDE002305BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				INFOPLIST_FILE = "Congress CallerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-CallerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Congress Caller";
+			};
+			name = Debug;
+		};
+		2743C76A1DDFCCDE002305BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				INFOPLIST_FILE = "Congress CallerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-CallerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Congress Caller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2743C7301DDFCCDE002305BD /* Build configuration list for PBXProject "Congress Caller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2743C7601DDFCCDE002305BD /* Debug */,
+				2743C7611DDFCCDE002305BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2743C7621DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress Caller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2743C7631DDFCCDE002305BD /* Debug */,
+				2743C7641DDFCCDE002305BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2743C7651DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress CallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2743C7661DDFCCDE002305BD /* Debug */,
+				2743C7671DDFCCDE002305BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2743C7681DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress CallerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2743C7691DDFCCDE002305BD /* Debug */,
+				2743C76A1DDFCCDE002305BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2743C72D1DDFCCDE002305BD /* Project object */;
+}
