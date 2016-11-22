@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					2743C7341DDFCCDE002305BD = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 3ZTR7GBLGC;
+						DevelopmentTeam = CLBGCVWJU4;
 						ProvisioningStyle = Automatic;
 					};
 					2743C74D1DDFCCDE002305BD = {
@@ -427,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				DEVELOPMENT_TEAM = CLBGCVWJU4;
 				INFOPLIST_FILE = "Congress Caller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-Caller";
@@ -439,7 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3ZTR7GBLGC;
+				DEVELOPMENT_TEAM = CLBGCVWJU4;
 				INFOPLIST_FILE = "Congress Caller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flouu.Congress-Caller";
@@ -516,6 +516,7 @@
 				2743C7641DDFCCDE002305BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2743C7651DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress CallerTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				2743C7671DDFCCDE002305BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2743C7681DDFCCDE002305BD /* Build configuration list for PBXNativeTarget "Congress CallerUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				2743C76A1DDFCCDE002305BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
